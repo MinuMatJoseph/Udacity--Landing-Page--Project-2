@@ -1,0 +1,37 @@
+/**********FOOTER *************/
+footer {
+    background-color: rgb(134, 128, 128);
+    grid-area: 3/1/4/3;
+    border-radius: 15px;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.social-media {
+    width: 50%;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    
+}
+.social-media__link {
+    border: 1px solid rgb(66,103,178);
+    border-radius: 50%;
+    background-color:rgb(66,103,178);
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: 600; 
+}
+.social-media__link > a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    
+    padding: 5px;
+    display: block; 
+}

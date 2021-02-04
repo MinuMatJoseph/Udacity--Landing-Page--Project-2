@@ -1,0 +1,16 @@
+/******INITIALIZE & BODY *****/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    font-family: 'open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    min-height: 100vh;
+    color: rgba(17, 13, 13, 0.842);
+    background-color: whitesmoke;
+    
+}

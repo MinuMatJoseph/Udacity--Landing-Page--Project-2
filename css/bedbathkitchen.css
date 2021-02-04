@@ -1,0 +1,98 @@
+@import "base.css";
+@import "footer.css";
+.container {
+    display: grid;
+    grid-template-columns: 60vw 30vw;
+    grid-template-rows: repeat(2,min-content) 8vh;
+    gap: 5px;
+    border: 3px solid rgba(150, 150, 161, 0.7);
+    border-radius: 10px;
+    margin: 10px ;
+    justify-content: center;
+    background-image: linear-gradient(rgba(212, 215, 228, 0.7), rgba(219, 219, 233, 0.7));
+  
+}
+/*************HEADER**************/
+.header {
+    grid-area: 1/1/2/3;
+    display: flex;
+}
+.header__home {
+    padding: 5px 15px;
+    border: 4px solid rgba(190, 194, 209, 0.7);
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(190, 194, 209, 0.7);
+    
+    
+}
+.header__home--link:link,
+.header__home--link:active,
+.header__home--link:visited {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(134, 128, 128);
+    
+    transition: all .2s;
+}
+
+.header__home--link:hover {  
+    color: rgb(61, 58, 58);
+}
+
+
+.header__home:hover {
+    box-shadow: 2px 5px rgba(190, 194, 209, 0.7); 
+    
+}
+.header__h1, 
+.second__section-h2 {
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/***************MAIN***************/
+.main {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.section {
+    border: 5px solid rgba(150, 150, 161, 0.7);
+    margin: 5px;
+    padding:10px;
+    border-radius: 15px;
+    box-shadow: 3px 2px rgba(150, 150, 161, 0.7);
+}
+.section__items {
+    list-style: none;
+}
+
+.second__section {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 20px;
+}
+.second__section-h3 {
+    text-align: start;
+    margin-left: 20px;
+}
+
+/*********** Media query 1000px********/
+
+@media(max-width: 1000px){
+.header__h1, 
+.second__section-h2 {
+    
+    font-size: 1.2em;
+    font-weight: 800;
+}
+.second__section-p{
+    font-size: .7em;
+
+}
+}
+
+
+
