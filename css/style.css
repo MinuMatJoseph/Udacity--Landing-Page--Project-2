@@ -64,13 +64,20 @@ h1, h2, span{
 }
 
 #main-blog--back-img1 {
-    background-image: linear-gradient(rgba(241, 101, 171, 0.7) ,rgba(233, 147, 190, 0.7));
+    background-image: linear-gradient(rgba(241, 101, 171, 0.7),
+                                    rgba(233, 147, 190, 0.7));
+    clip-path: polygon(10% 0, 100% 0, 100% 70% , 85% 100%, 0 100%, 0 20%);
+
 }
 #main-blog--back-img2 {
     background-image: linear-gradient(rgba(24, 165, 201) ,rgb(146, 213, 230 , 0.7));
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(10% 0, 100% 0, 100% 70% , 85% 100%, 0 100%, 0 20%);
 }
 #main-blog--back-img3 {
     background-image: linear-gradient(rgba(58, 83, 121) ,rgba(100, 159, 226, 0.7, 0.7));
+    clip-path: polygon(10% 0, 100% 0, 100% 70% , 85% 100%, 0 100%, 0 20%);
    
 }
 .main-blog__box-img {

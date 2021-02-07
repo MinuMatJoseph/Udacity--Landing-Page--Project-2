@@ -4,7 +4,9 @@
     height: 100vh;
     background-image: linear-gradient(rgba(226, 142, 142, 0.5), rgba(240, 230, 230, 0.301)), url(../img/home-img.jpg); 
     background-size: cover;  
-    background-position: center;
+    /* background-position: center; */
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 70%,  60% 100%, 0 100%);
     grid-area: 1/1/2/3;
     /* margin: 0 auto; */
 }
