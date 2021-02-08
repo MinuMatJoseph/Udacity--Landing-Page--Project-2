@@ -32,6 +32,9 @@
     font-size: 1.5em;
     color: rgba(241, 226, 233, 0.842);
     text-transform: uppercase;
+
+    animation-name: headerMoveRight;
+    animation-duration: 2s;
     
 }
 .header__menu--nav{
@@ -42,4 +45,20 @@
 .header-list__items{
     display: flex;
     justify-content: flex-end; 
+}
+
+@keyframes headerMoveRight{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+
+    }
+    80%{
+        transform: translateX(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
 }
