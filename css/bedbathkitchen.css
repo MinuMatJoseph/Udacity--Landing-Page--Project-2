@@ -27,7 +27,6 @@
     
 }
 .header__home--link:link,
-.header__home--link:active,
 .header__home--link:visited {
     display: block;
     text-decoration: none;
@@ -44,8 +43,13 @@
 
 
 .header__home:hover {
-    box-shadow: 2px 5px rgba(190, 194, 209, 0.7); 
+    transform: translateY(-3px);
+    box-shadow:0 4px 8px rgba(190, 194, 209, 0.7); 
     
+}
+.header__home--link:active{
+    transform: translateY(-1px);
+    box-shadow: 0 1px 3px rgba(190, 194, 209, 0.7); 
 }
 .header__h1, 
 .second__section-h2 {

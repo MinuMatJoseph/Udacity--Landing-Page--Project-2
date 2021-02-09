@@ -122,14 +122,13 @@ h1, h2, span{
 }
 
 .item-link:link,
-.item-link:active,
 .item-link:visited { 
     display: inline-block;
     font-weight: 700;
     font-size: 1.2em;
     text-decoration: none;
     padding: 10px;
-    /* padding: 5px 10px; */
+    border-radius:100px;
     margin: 5px;
     /* border-radius: 15px; */
     /* margin:0; */
@@ -140,6 +139,13 @@ h1, h2, span{
 .item-link:hover,
 .item-link:focus {
     color:rgb(119, 114, 114); 
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+}
+.item-link:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2)
+
 }
 
 .blog__first {
