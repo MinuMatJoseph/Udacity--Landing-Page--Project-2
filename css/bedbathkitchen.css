@@ -56,7 +56,16 @@
     margin: 0 auto;
     text-transform: uppercase;
     text-align: center;
+    
+    background-image: linear-gradient(to right, rgba(172, 186, 236, 0.7), rgba(9, 32, 114, 0.7));
+    background-clip: text;
+    -webkit-background-clip: text;
+     color: transparent;
 }
+.header__h1--heading{
+    border-bottom: 3px solid rgb(126, 163, 231);
+
+} 
 
 /***************MAIN***************/
 .main {
@@ -68,6 +77,13 @@
     padding:10px;
     border-radius: 15px;
     box-shadow: 3px 2px rgba(150, 150, 161, 0.7);
+}
+.section__heading{
+    background-image: linear-gradient(to right, rgba(172, 186, 236, 0.7), rgba(9, 32, 114, 0.7));
+    background-clip: text;
+    -webkit-background-clip: text;
+     color: transparent;
+
 }
 .section__items {
     list-style: none;
